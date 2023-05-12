@@ -1,0 +1,68 @@
+.footer {
+    background-color: #0067A3;
+    height: 60px;
+    /*height: fit-content;*/
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1235px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 9px 7px 11px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.taskCount {
+    display: flex;
+    width: 331px;
+}
+
+.activeTaskCount {
+    margin-right: 55px;
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1235px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .footer {
+        height: fit-content;
+    }
+    .container {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .taskCount {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .activeTaskCount {
+        margin-right: 3px;
+        margin-bottom: 10px;
+    }
+
+    .create {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

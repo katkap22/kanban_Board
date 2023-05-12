@@ -1,0 +1,27 @@
+.app {
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #0079bf;
+}
+
+.main {
+    box-sizing: inherit;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 699px){
+    .app {
+        height: fit-content;
+    }
+
+    .main {
+        /*max-height: fit-content;*/
+    }
+}
+

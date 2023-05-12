@@ -1,0 +1,122 @@
+.card {
+  width: 282px;
+  padding: 12px 12px 8px 12px;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.cardTitle {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.scrollContainer {
+  box-sizing: border-box;
+  overflow: visible;
+  /*padding-right: 12px;*/
+}
+
+.itemIssues {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 7px 9px 7px 8px;
+  margin-top: 15px;
+  margin-right: 12px;
+}
+
+.itemIssues a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.itemIssues a:hover {
+  cursor:pointer;
+}
+
+.input {
+  padding: 7px 9px 7px 8px;
+  width: 100%;
+  max-width: 258px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 12px 0 0;
+  font-size: 18px;
+  line-height: 21px;
+  resize: vertical;
+  overflow-wrap: break-word;
+}
+
+.hr {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: -12px 19px 0 5px;
+  position: relative;
+}
+
+.btn, .select {
+  margin-top: 15px;
+  max-width: 258px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5e6c84;
+  text-align: start;
+}
+
+.btn:hover,.select:hover {
+  background: #5e6c84;
+  color: white;
+  cursor: pointer;
+}
+
+.select {
+    background-color: #ebecf0;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select:disabled {
+  cursor:auto;
+  opacity: 0.6;
+  background-color: #ebecf0;
+  color: #5e6c84;
+}
+
+.wrapper {
+  background-color: #ebecf0;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1235px) {
+  .card {
+    width: 23%;
+  }
+}
+
+@media (max-width: 699px) {
+  .card {
+    width: 90%;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    background-color: #ebecf0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  .card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+

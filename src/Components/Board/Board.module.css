@@ -1,0 +1,27 @@
+.content {
+    padding: 20px 16px 20px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: inherit;
+    max-width: 1235px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1235px) {
+    .content {
+
+    }
+}
+
+@media (max-width: 699px) {
+    .content{
+        padding-top: 36px;
+        padding-right: 35px;
+        padding-left: 31px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

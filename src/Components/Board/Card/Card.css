@@ -1,0 +1,28 @@
+.simplebar-scrollbar:before {
+  background: #CBCBCB;
+  border-radius: 5px;
+  width: 12px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1.0;
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 12px;
+  background: #fff;
+}
+
+div.simplebar-track.simplebar-horizontal {
+  display: none;
+}
+
+
+
+
+
+
+
